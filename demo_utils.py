@@ -3,7 +3,7 @@ from matplotlib.animation import FuncAnimation
 from resemblyzer import sampling_rate
 from matplotlib import cm
 from time import sleep, perf_counter as timer
-from umap import UMAP
+import umap
 from sys import stderr
 import matplotlib.pyplot as plt
 import numpy as np
