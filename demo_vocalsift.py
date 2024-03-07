@@ -14,8 +14,8 @@ from datetime import datetime
 encoder = VoiceEncoder()
 
 
-path = Path("audio_data", "vocalsift_fma_test")
-
+# path = Path("audio_data", "vocalsift_fma_test")
+path = Path("audio_data", "fma_small_out_1")
 
 wav_fpaths = list(path.glob("**/*.wav"))
 
@@ -29,7 +29,7 @@ embeddings_dict = {}
 
 counter = len(embeddings_dict)
 
-for file in wav_fpaths:
+for file in tqdm(wav_fpaths):
     metadata = music_tag.load_file(file)
     metadata_dict = {}
     for possible_tag in metadata.tag_map:

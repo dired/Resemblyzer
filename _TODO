@@ -1,0 +1,5 @@
+Resemblyzer:
+    - similarity estimation über alle embeddings laufen lassen und ab einem bestimmten threashold value, die ID des vergleichs embedding zusammen mit dem value im embedding speichern
+    - checken ob alle embeddings die zum gleichen artist gehören auch zugeordnet wurden
+    - checken welche embeddings außer denen die vom selben artist stammen noch so zugeordnet wurden
+    - experimentieren mit threshold value und dem model welches für das erzeugen des embeddings verwendet wurde
