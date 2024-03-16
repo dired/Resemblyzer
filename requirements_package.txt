@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:84ce7206d2052119b459d740a9e181aeada6407b1d855752d90d7989f0aea1c5
-size 86
+librosa>=0.9.1
+numpy>=1.20.0
+webrtcvad>=2.0.10
+torch>=1.0.1
+scipy>=1.2.1
+typing

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bdd89a97cd9c8ad8073f43a4359750ea04c448e86093310c8b583631e26cd9f6
-size 136
+librosa>=0.9.1
+numpy>=1.20.0
+webrtcvad>=2.0.10
+torch>=1.0.1
+scipy>=1.2.1
+typing
+matplotlib>=3.0.0
+sounddevice
+tqdm
+umap-learn
